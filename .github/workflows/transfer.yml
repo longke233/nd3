@@ -3,7 +3,7 @@ name: OneDrive to OneDrive (Resume Safe)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 19,1,7,13 * * *'
 
 jobs:
   transfer:
