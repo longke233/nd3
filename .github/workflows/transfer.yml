@@ -37,8 +37,10 @@ jobs:
             mcn:/ \
             --progress \
             --transfers=3 \
-            --multi-thread-streams 6 \
+            --multi-thread-streams 4 \
             --drive-chunk-size 128M \
             --multi-thread-cutoff 64M \
             --buffer-size 32M \
+            --tpslimit 6 \
+            --fast-list \
             --low-level-retries=100
